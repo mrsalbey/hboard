@@ -1,0 +1,8 @@
+Django
+django-filter
+django-extensions
+djangorestframework
+djangorestframework-simplejwt
+djoser
+isort
+oitnb
