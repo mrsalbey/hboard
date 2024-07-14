@@ -24,7 +24,7 @@ INSTALLED_APPS = [
     'django_extensions',
     # 'debug_toolbar',
     # 'import_export',
-    #'recipes',
+    'reviews',
     'users',
     'api',
 ]
