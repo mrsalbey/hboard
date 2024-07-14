@@ -46,7 +46,7 @@ class Review(models.Model):
 
     @property
     def get_string_display(self) -> str:
-        return f'{self.cohort}, {self.sprint}, {self.student} - {self.stars}'
+        return f'{self.cohort}, {self.sprint}, {self.student} - {self.stars} ({self.reviewer})'
 
     class Meta:
         ordering = ['-date_created']
