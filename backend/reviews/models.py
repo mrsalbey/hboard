@@ -55,4 +55,4 @@ class Review(models.Model):
         constraints = [models.UniqueConstraint(fields=['cohort', 'sprint', 'student'], name='unique_review')]
 
     def __str__(self):
-        return self.get_string_display    
+        return self.get_string_display
